@@ -9,7 +9,54 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+
+    colors: {
+      //Primary colors
+      main_purple: "#2E00FF",
+      main_dark: "#0B0140",
+      main_light: "#F5F3FD",
+
+      //Secondary Color
+      secondary: "#4AF8E3",
+      secondary_shade: "#FFF3EE",
+      secondary_light: "#F3EADA",
+
+      //Dark Color
+      dark1: "#06021C",
+      dark2: "#33313E",
+      dark3: "#5D5B70",
+      dark4: "#BAB8CF",
+      dark5: "#E6E5ED",
+      dark6: "#F4F2F7",
+      dark7: "#F9F8FC",
+
+      //Status Color
+      info: "#219FFF",
+      info_shade: "#E9F6FF",
+
+      success: "#17BD8D",
+      success_shade: "#E9FBF6",
+
+      warning: "#FFA114",
+      warning_shade: "#FFF7EB",
+
+      danger: "#FF4E3E",
+      danger_shade: "#FEF4F3",
+
+      //Base colors
+      white: "#FFFFFF",
+      black: "#000000",
+
+    },
+
+    extend: {
+
+      fontFamily: {
+        roobert: "'Roobert', sans",
+      },
+
+
+    },
   },
   plugins: [],
 }
