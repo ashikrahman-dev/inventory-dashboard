@@ -1,24 +1,17 @@
 <template>
     <div>
-        <nav>
-            <ul class="grid grid-cols-6 gap-2 bg-amber-100 text-amber-800 p-4">
-                <li><NuxtLink to="/">Home</NuxtLink></li>
-                <li><NuxtLink to="/about">About</NuxtLink></li>
-                <li><NuxtLink to="/products">Products</NuxtLink></li>
-                <li><NuxtLink to="/login">Login</NuxtLink></li>
-            </ul>
-        </nav>
-        <h1>Home page</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio porro quos perspiciatis. Autem assumenda pariatur necessitatibus ipsa harum quisquam! Reiciendis nulla neque iste animi, eius fugiat incidunt necessitatibus ut excepturi?</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate excepturi voluptatum iusto assumenda nisi! Recusandae exercitationem eveniet veniam, non qui temporibus laborum pariatur blanditiis eaque ea quas dignissimos officiis.
     </div>
 </template>
 
-<script setup>
+<script>
 
-   
-
+    export default {
+        name: 'index',
+        data() {
+            return {
+                mytext: 'Hi I am Ashikur Rahman'
+            }
+        }
+    }
 </script>
-
-<style scoped>
-
-</style>

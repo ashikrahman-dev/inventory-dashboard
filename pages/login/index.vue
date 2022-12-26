@@ -1,6 +1,6 @@
 
 <template>
-    <div class="login-bg h-screen grid items-center">
+    <div class="login-bg h-full min-h-screen grid items-center">
         <div class="xl:container mx-auto ">
             <div class="py-12 px-4 sm:px-6 lg:px-8 ">
                 <div class="w-full max-w-md space-y-8 login-wrap bg-white" >
