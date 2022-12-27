@@ -11,7 +11,7 @@
         @slideChange="onSlideChange"
         class="mySwiper"
         :autoplay="{
-          delay: 92500,
+          delay: 2500,
           disableOnInteraction: false,
         }"
         :mousewheel="true"
@@ -54,8 +54,10 @@
         </swiper-slide>
       </swiper>
     </div>
+
     <div class="login-form w-full">
-      <div class="login-bg h-full min-h-screen grid items-center">
+      <div class="ml-[125px]">
+        <div class="login-bg h-full min-h-screen grid items-center">
         <div class="xl:container mx-auto ">
             <div class="py-12 px-4 sm:px-6 lg:px-8 ">
                 <div class="w-full max-w-md space-y-8 login-wrap bg-white" >
@@ -105,6 +107,7 @@
                 </div>
             </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
