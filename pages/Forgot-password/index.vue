@@ -22,9 +22,7 @@
                         <div class="text-center">
                             <NuxtLink to="/login">
                                 <button type="submit" class="group relative flex w-full justify-center rounded-md bg-main_purple text-lg py-2 px-4  font-semibold text-white hover:bg-indigo-700 focus:outline-none">
-                                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
-                                        <LockClosedIcon class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" aria-hidden="true" />
-                                    </span>
+                                    
                                     Send mail
                                 </button>
                             </NuxtLink>
@@ -41,7 +39,6 @@
   </template>
   
   <script setup>
-//   import { LockClosedIcon } from '@heroicons/vue/20/solid'
   </script>
 
 <style scoped>
