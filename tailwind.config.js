@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
 
+    fontFamily: {
+      roobert: "'Roobert', sans",
+    },
+
     colors: {
       //Primary colors
       main_purple: "#2E00FF",
@@ -50,11 +54,6 @@ module.exports = {
     },
 
     extend: {
-
-      fontFamily: {
-        roobert: "'Roobert', sans",
-      },
-
 
     },
   },
