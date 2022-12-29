@@ -1,28 +1,21 @@
 <script>
-// import Header from '../src/Components/Header/index.vue'
-// import HeroHome from '../src/Components/HeroHome/index.vue'
+import Header from '../Components/Header'
+import HeroHome from '../Components/HeroHome'
 
-
-// export default {
-//     components: {Header, HeroHome},
-
-// }
-
-import BlueFillbtn from '../src/Components/CommonBtn/BlueFill'
-import SecondaryBtn from '../src/Components/CommonBtn/SecondaryBtn'
 
 export default {
-    components: { BlueFillbtn, SecondaryBtn }
+    components: {Header, HeroHome},
+
 }
 
 </script>
 
 <template>
     <div>
-        <!-- <Header />
-        <HeroHome /> -->
+        <Header />
+        <HeroHome />
         
-        <div class="header-wrap grid content-center z-20 relative">
+        <!-- <div class="header-wrap grid content-center z-20 relative">
             <div class="container mx-auto">
                 <div class="flex">
                     <div class="logo flex items-center">
@@ -64,7 +57,7 @@ export default {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
     </div>
@@ -72,7 +65,7 @@ export default {
 
 
 <style scoped>
-.header-wrap {
+/* .header-wrap {
     background: linear-gradient(180deg, rgba(11, 1, 64, 0.6) 0%, rgba(11, 1, 64, 0) 100%);
     height: 108px;
     margin-bottom: -108px;
@@ -84,7 +77,7 @@ export default {
     background-repeat: no-repeat, no-repeat;
     min-height: 1105px;
 
-}
+} */
 </style>
 
 

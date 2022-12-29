@@ -63,7 +63,7 @@ export default {
             <swiper-slide class="">
                 <div class="slide-content relative z-10 mx-auto">
                     <div class="quote-icon">
-                        <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
+                        <img src="../../assets/img/login-quote-icon.png" class=" w-[118px]">
                     </div>
                     <h2 class="text-[2.5rem] leading-[3.25rem] text-white font-normal">
                         Inventory Management is not the <span class=" font-bold">main thing</span> to success, its
@@ -74,7 +74,7 @@ export default {
             <swiper-slide class="">
                 <div class="slide-content relative z-10 mx-auto">
                     <div class="quote-icon">
-                        <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
+                        <img src="../../assets/img/login-quote-icon.png" class=" w-[118px]">
                     </div>
                     <h2 class="text-[2.5rem] leading-[3.25rem] text-white font-normal">
                         A good system <span class=" font-bold">shortens</span> the road to the goal
@@ -84,7 +84,7 @@ export default {
             <swiper-slide class="">
                 <div class="slide-content relative z-10 mx-auto">
                     <div class="quote-icon">
-                        <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
+                        <img src="../../assets/img/login-quote-icon.png" class=" w-[118px]">
                     </div>
                     <h2 class="text-[2.5rem] leading-[3.25rem] text-white font-normal">
                         <span class=" font-bold">Systemize</span> your <span class="font-bold">e-commerce</span>

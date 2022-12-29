@@ -1,5 +1,5 @@
 <script>
-import LoginSlider from "../../src/Components/LoginSlider"
+import LoginSlider from "../../Components/LoginSlider"
 
 
 export default {
