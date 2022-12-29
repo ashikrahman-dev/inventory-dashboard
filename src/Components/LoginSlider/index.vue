@@ -60,7 +60,7 @@ export default {
             clickable: true,
         }"
         >
-            <swiper-slide class="flex justify-start">
+            <swiper-slide class="">
                 <div class="slide-content relative z-10 mx-auto">
                     <div class="quote-icon">
                         <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
@@ -71,7 +71,7 @@ export default {
                     </h2>
                 </div>
             </swiper-slide>
-            <swiper-slide class="flex justify-start">
+            <swiper-slide class="">
                 <div class="slide-content relative z-10 mx-auto">
                     <div class="quote-icon">
                         <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
@@ -81,7 +81,7 @@ export default {
                     </h2>
                 </div>
             </swiper-slide>
-            <swiper-slide class="flex justify-start">
+            <swiper-slide class="">
                 <div class="slide-content relative z-10 mx-auto">
                     <div class="quote-icon">
                         <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
@@ -95,4 +95,5 @@ export default {
         </swiper>
     </div>
 </template>
+
 
