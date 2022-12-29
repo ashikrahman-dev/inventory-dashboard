@@ -1,5 +1,5 @@
 <script>
-import SecondaryBtn from '../CommonBtn/SecondaryBtn'
+import SecondaryBtn from '../SecondaryBtn'
 
 
 export default {

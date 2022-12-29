@@ -1,7 +1,7 @@
 
 <script>
-import BlueFill from '../CommonBtn/BlueFill'
-import SecondaryBtn from '../CommonBtn/SecondaryBtn'
+import BlueFill from '../BlueFill'
+import SecondaryBtn from '../SecondaryBtn'
 
 export default {
     components: { BlueFill, SecondaryBtn }
