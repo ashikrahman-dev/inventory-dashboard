@@ -1,5 +1,5 @@
 <script>
-import LoginSlider from "../../src/components/LoginSlider"
+import LoginSlider from "../../src/Components/LoginSlider"
 
 
 export default {
@@ -15,7 +15,7 @@ export default {
 	<div class="grid grid-cols-12">
 		<div class="col-span-6 slider-bg">
 			<div class="col-start-2 col-span-4">
-				<LoginSlider class="" />
+				<LoginSlider />
 			</div>
 		</div>
 
