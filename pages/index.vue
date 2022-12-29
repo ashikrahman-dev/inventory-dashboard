@@ -1,7 +1,7 @@
 
 <script>
-import Header from './../src/Components/Header'
-import HeroHome from './../src/Components/HeroHome'
+import Header from '../src/Components/Header'
+import HeroHome from '../src/Components/HeroHome'
 
 
 export default {
