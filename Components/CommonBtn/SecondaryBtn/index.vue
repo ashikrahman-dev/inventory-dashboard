@@ -1,3 +1,9 @@
+<script>
+export default {
+    name: "SecondaryBtn"
+}
+</script>
+
 <template>
     <div>
         <NuxtLink to="/" class="bg-secondary text-dark1 text-[18px] leading-[22px] rounded-lg py-[18px] px-[30px] font-semibold flex">
@@ -6,12 +12,7 @@
     </div>
 </template>
 
-<script>
-    export default {
-        
-    }
-</script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

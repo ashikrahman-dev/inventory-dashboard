@@ -1,10 +1,10 @@
 
 <script>
-import BlueFillbtn from '../CommonBtn/BlueFill'
+import BlueFill from '../CommonBtn/BlueFill'
 import SecondaryBtn from '../CommonBtn/SecondaryBtn'
 
 export default {
-    components: { BlueFillbtn, SecondaryBtn }
+    components: { BlueFill, SecondaryBtn }
 }
 </script>
 
@@ -21,7 +21,7 @@ export default {
                         <p class="mt-8 mb-12">End-to-end e-commerce management</p>
 
                         <div class="flex gap-5">
-                            <BlueFillbtn>Book a Demo</BlueFillbtn>
+                            <BlueFill>Book a Demo</BlueFill>
                             <SecondaryBtn>Sign up today</SecondaryBtn>
                         </div>
                     </div>

@@ -1,3 +1,9 @@
+<script>
+export default {
+    name: "BlueFill"
+}
+</script>
+
 <template>
     <div>
         <NuxtLink to="/" class="blue-fill-btn bg-main_purple text-white text-[18px] leading-[22px] rounded-lg py-[18px] px-[30px] flex gap-2 justify-center items-center font-semibold">
@@ -14,12 +20,6 @@
     </div>
 </template>
 
-<script>
-    export default {
-        
-    }
-</script>
-
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
