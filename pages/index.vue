@@ -11,13 +11,8 @@ export default {
 </script>
 
 <template>
-    <div>
-        <Header />
-        <HeroHome />
-
-
-
-    </div>
+    <Header />
+    <HeroHome />
 </template>
 
 
