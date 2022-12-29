@@ -1,12 +1,16 @@
+
+
 <script>
+import './style.css';
 // Import Swiper Vue.js components
-import "./style.css";
 import { Swiper, SwiperSlide } from 'swiper/vue';
 // import required modules
 import { Pagination, Autoplay, Mousewheel } from "swiper";
 import "swiper/css/pagination";
 // Import Swiper styles
 import 'swiper/css';
+
+
 
 
 export default {
@@ -34,7 +38,8 @@ export default {
 </script>
 
 <template>
-    <div class="">
+    <div class="justify-start">
+    
         <swiper 
         :slides-per-view="1"
         :space-between="0"
@@ -55,33 +60,33 @@ export default {
             clickable: true,
         }"
         >
-            <swiper-slide class=" text-7xl font-bold text-white grid place-content-center">
-                <div class="slide-content relative z-10">
-                    <div class="absolute top-[-85px] left-[-44px] -z-10">
+            <swiper-slide class="flex justify-start">
+                <div class="slide-content relative z-10 mx-auto">
+                    <div class="quote-icon">
                         <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
                     </div>
-                    <h2 class=" text-[2.5rem] leading-[3.25rem] text-white font-normal">
+                    <h2 class="text-[2.5rem] leading-[3.25rem] text-white font-normal">
                         Inventory Management is not the <span class=" font-bold">main thing</span> to success, its
                         the <span class="font-bold">ONLY</span> thing to success.
                     </h2>
                 </div>
             </swiper-slide>
-            <swiper-slide class=" text-7xl font-bold text-white">
-                <div class="slide-content relative z-10">
-                    <div class="absolute top-[-85px] left-[-44px] -z-10">
+            <swiper-slide class="flex justify-start">
+                <div class="slide-content relative z-10 mx-auto">
+                    <div class="quote-icon">
                         <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
                     </div>
-                    <h2 class=" text-[2.5rem] leading-[3.25rem] text-white font-normal">
+                    <h2 class="text-[2.5rem] leading-[3.25rem] text-white font-normal">
                         A good system <span class=" font-bold">shortens</span> the road to the goal
                     </h2>
                 </div>
             </swiper-slide>
-            <swiper-slide class=" text-7xl font-bold text-white">
-                <div class="slide-content relative z-10">
-                    <div class="absolute top-[-85px] left-[-44px] -z-10">
+            <swiper-slide class="flex justify-start">
+                <div class="slide-content relative z-10 mx-auto">
+                    <div class="quote-icon">
                         <img src="../../../assets/img/login-quote-icon.png" class=" w-[118px]">
                     </div>
-                    <h2 class=" text-[2.5rem] leading-[3.25rem] text-white font-normal">
+                    <h2 class="text-[2.5rem] leading-[3.25rem] text-white font-normal">
                         <span class=" font-bold">Systemize</span> your <span class="font-bold">e-commerce</span>
                         company.
                     </h2>
@@ -90,3 +95,4 @@ export default {
         </swiper>
     </div>
 </template>
+

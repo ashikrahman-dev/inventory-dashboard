@@ -13,7 +13,7 @@ export default {
 <template>
 	<div class="grid grid-cols-12">
 		<div class="col-span-6">
-			<LoginSlider />
+			<LoginSlider class=" text-[2.5rem] leading-[3.25rem] text-white font-normal" />
 		</div>
 
 		<div class="login-form col-span-6">
@@ -44,7 +44,7 @@ export default {
 											</div>
 										</div>
 
-										<NuxtLink to="/login">
+										<NuxtLink to="/login2">
 											<button type="submit"
 												class="group relative flex w-full justify-center rounded-md bg-main_purple text-lg py-2 px-4 font-semibold text-white hover:bg-indigo-700 focus:outline-none mt-7">
 												Reset
