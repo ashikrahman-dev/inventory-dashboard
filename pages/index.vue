@@ -1,21 +1,28 @@
 
 <script>
-    import Bing from "../src/Components/bing"
-    import Google from "../src/Components/google"
+import Header from './../src/Components/Header'
+import Bing from '../src/Components/bing'
 
-    export default {
-        components: {Bing, Google},
 
-    }
-    
+export default {
+    components: {Header, Bing},
+
+}
+
 
 </script>
 
 <template>
     <div>
-        <Bing />
-        <Google />
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur pariatur minus soluta ea odit sit et in est similique accusantium fugit assumenda numquam eius corporis, neque libero voluptas enim obcaecati?
+        <Header />
+        <Bing>
+            <div class=" text-5xl text-info_color">AAAAAAAAAAAAAAAAAAA</div>
+        </Bing>
+        <h2 class=" text-6xl font-black text-main_dark">Home page</h2>
+        
+        
     </div>
 </template>
+
+
 

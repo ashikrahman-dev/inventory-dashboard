@@ -12,7 +12,7 @@ export default {
 
 <template>
 	<div class="grid grid-cols-12">
-		<div class="col-span-6">
+		<div class="col-span-6 slider-bg">
 			<LoginSlider class=" text-[2.5rem] leading-[3.25rem] text-white font-normal" />
 		</div>
 
@@ -23,7 +23,7 @@ export default {
 					<div class="col-start-2 col-span-4">
 						<div class="w-full max-w-md space-y-8 login-wrap bg-white">
 							<div class=" flex flex-col justify-between h-full min-h-screen py-12">
-								<NuxtLink to="/login2" class="site-logo">
+								<NuxtLink to="/" class="site-logo">
 									<img class="max-w-[160px] w-full" src="../../assets/img/login-2-logo.svg"
 										alt="Company logo" />
 								</NuxtLink>

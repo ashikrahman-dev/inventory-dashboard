@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
+    "./src/components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
@@ -13,6 +14,7 @@ module.exports = {
     fontFamily: {
       roobert: "'Roobert', sans",
     },
+    
 
     colors: {
       //Primary colors
@@ -35,16 +37,16 @@ module.exports = {
       dark7: "#F9F8FC",
 
       //Status Color
-      info: "#219FFF",
+      info_color: "#219FFF",
       info_shade: "#E9F6FF",
 
-      success: "#17BD8D",
+      success_color: "#17BD8D",
       success_shade: "#E9FBF6",
 
-      warning: "#FFA114",
+      warning_color: "#FFA114",
       warning_shade: "#FFF7EB",
 
-      danger: "#FF4E3E",
+      danger_color: "#FF4E3E",
       danger_shade: "#FEF4F3",
 
       //Base colors
@@ -54,8 +56,6 @@ module.exports = {
     },
 
     extend: {
-
-
 
 
     },
