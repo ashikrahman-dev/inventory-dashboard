@@ -11,12 +11,12 @@ export default {
     <div class="header-wrap grid content-center z-20 relative">
         <div class="container mx-auto">
             <div class="flex">
-                <div class="logo">
+                <div class="logo flex items-center">
                     <NuxtLink to="/">
                         <img src="../../../assets/img/logo-white.svg" alt="">
                     </NuxtLink>
                 </div>
-                <div class="menu-bar text-white flex-auto flex align-middle justify-center gap-8">
+                <div class="menu-bar text-white flex-auto flex items-center justify-center gap-8">
                     <NuxtLink to="/">Home</NuxtLink>
                     <NuxtLink to="">Features</NuxtLink>
                     <NuxtLink to="">Company</NuxtLink>
