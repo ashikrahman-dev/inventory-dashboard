@@ -1,5 +1,5 @@
 <script>
-import SecondaryBtn from '../SecondaryBtn'
+import SecondaryBtn from './SecondaryBtn.vue'
 
 
 export default {
@@ -13,7 +13,7 @@ export default {
             <div class="flex">
                 <div class="logo flex items-center">
                     <NuxtLink to="/">
-                        <img src="../../assets/img/logo-white.svg" alt="">
+                        <img src="../assets/img/logo-white.svg" alt="">
                     </NuxtLink>
                 </div>
                 <div class="menu-bar text-white flex-auto flex items-center justify-center gap-8">

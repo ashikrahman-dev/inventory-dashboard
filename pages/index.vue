@@ -1,6 +1,6 @@
 <script>
-import Header from '../Components/Header'
-import HeroHome from '../Components/HeroHome'
+import Header from '../Components/Header.vue'
+import HeroHome from '../Components/HeroHome.vue'
 
 
 export default {

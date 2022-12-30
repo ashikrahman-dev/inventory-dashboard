@@ -1,7 +1,7 @@
 
 <script>
-import BlueFill from '../BlueFill'
-import SecondaryBtn from '../SecondaryBtn'
+import BlueFill from './BlueFill.vue'
+import SecondaryBtn from './SecondaryBtn.vue'
 
 export default {
     components: { BlueFill, SecondaryBtn }
@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
 .hero-area-wrap {
-    background: linear-gradient(90deg, #0B0140 0%, rgba(11, 1, 64, 0) 60.34%), url('../../assets/img/hero-bg.jpg');
+    background: linear-gradient(90deg, #0B0140 0%, rgba(11, 1, 64, 0) 60.34%), url('../assets/img/hero-bg.jpg');
     background-size: cover, cover;
     background-repeat: no-repeat, no-repeat;
     min-height: 1105px;
