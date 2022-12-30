@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div>
-        <NuxtLink to="/" class="blue-fill-btn bg-main_purple text-white text-[18px] leading-[22px] rounded-lg flex gap-2 justify-center items-center font-semibold">
+        <NuxtLink to="/" class="blue-fill-btn bg-main_purple text-white rounded-lg flex gap-2 justify-center items-center font-semibold">
             <span>
                 <slot />
             </span>
@@ -23,5 +23,7 @@ export default {
 <style scoped>
 .blue-fill-btn {
     padding: 18px 30px;
+    font-size: 18px;
+    line-height: 22px;
 }
 </style>

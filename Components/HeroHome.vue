@@ -15,7 +15,7 @@ export default {
             <div class="container mx-auto">
                 <div class="grid grid-cols-12">
                     <div class="col-span-6 text-white">
-                        <h1 class=" text-[84px] leading-[92px] ">
+                        <h1 class=" text-7xl leading-9 ">
                             <span class="font-black">Systemize</span> your <span class="font-black block">e-commerce</span> company
                         </h1>
                         <p class="mt-8 mb-12">End-to-end e-commerce management</p>

@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div>
-        <NuxtLink to="/" class="secondary-btn bg-secondary text-dark1 text-[18px] leading-[22px] rounded-lg font-semibold flex">
+        <NuxtLink to="/" class="secondary-btn bg-secondary text-dark1 rounded-lg font-semibold flex">
             <slot />
         </NuxtLink>
     </div>
@@ -16,5 +16,7 @@ export default {
 <style scoped>
 .secondary-btn {
     padding: 18px 30px;
+    font-size: 18px;
+    line-height: 22px;
 }
 </style>
