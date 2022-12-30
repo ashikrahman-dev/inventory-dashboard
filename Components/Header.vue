@@ -36,7 +36,7 @@ export default {
 </template>
 
 
-<style scoped>
+<style>
     .header-wrap {
         background: linear-gradient(180deg, rgba(11, 1, 64, 0.6) 0%, rgba(11, 1, 64, 0) 100%);
         height: 108px;

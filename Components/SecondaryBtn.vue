@@ -13,7 +13,7 @@ export default {
 </template>
 
 
-<style scoped>
+<style>
 .secondary-btn {
     padding: 18px 30px;
     font-size: 18px;

@@ -20,7 +20,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style>
 .blue-fill-btn {
     padding: 18px 30px;
     font-size: 18px;

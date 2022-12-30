@@ -32,7 +32,7 @@ export default {
 </template>
 
 
-<style scoped>
+<style>
 .hero-area-wrap {
     background: linear-gradient(90deg, #0B0140 0%, rgba(11, 1, 64, 0) 60.34%), url('../assets/img/hero-bg.jpg');
     background-size: cover, cover;
