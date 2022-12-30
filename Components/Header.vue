@@ -1,9 +1,9 @@
 <script>
-import SecondaryBtn from './SecondaryBtn.vue'
+
 
 
 export default {
-    components: { SecondaryBtn }
+
 }
 </script>
 
